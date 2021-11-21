@@ -26,7 +26,7 @@ class LaravelEurekaProvider extends ServiceProvider
 	 */
 	public function boot()
 	{
-		$this->loadRoutesFrom(__DIR__ . '/../routes/api.php');
+		$this->loadRoutesFrom(__DIR__ . '/routes/api.php');
 
 		if ($this->app->runningInConsole()) {
 			$this->commands([
