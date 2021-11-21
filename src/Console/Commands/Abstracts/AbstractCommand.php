@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dirkuu\LaravelEureka\Console\Commands\Abstracts;
+namespace wjezowski\LaravelEureka\Console\Commands\Abstracts;
 
 use Illuminate\Console\Command;
 
