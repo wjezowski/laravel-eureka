@@ -11,7 +11,7 @@
     "homepage": "https://github.com/dirkuu/laravel-eureka",
     "type": "library",
     "require": {
-        "php": "^7.4|^8.0",
+        "php": "^8.0",
         "ext-pcntl": "*",
         "ext-dom": "*",
         "piwvh/php-eureka": "dev-master",
@@ -27,7 +27,8 @@
     "authors": [
         {
             "name": "Wojciech Jeżowski",
-            "email": "dirkuu@gmail.com"
+            "email": "dirkuu@gmail.com",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "stable"
