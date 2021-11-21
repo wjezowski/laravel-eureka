@@ -23,6 +23,11 @@
     "require-dev": {
         "phpunit/phpunit": "^9.5"
     },
+    "autoload": {
+        "psr-0": {
+            "wjezowski\\LaravelEureka\\": ""
+        }
+    },
     "license": "MIT",
     "authors": [
         {
