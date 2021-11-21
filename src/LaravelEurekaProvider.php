@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace wjezowski\LaravelEureka\Providers;
+namespace wjezowski\LaravelEureka;
 
 use Illuminate\Support\ServiceProvider;
 use wjezowski\LaravelEureka\Console\Commands\EurekaHeartbeatCommand;
@@ -26,7 +26,7 @@ class LaravelEurekaProvider extends ServiceProvider
 	 */
 	public function boot()
 	{
-		$this->loadRoutesFrom(__DIR__ . '/../Routes/api.php');
+		$this->loadRoutesFrom(__DIR__ . '/../routes/api.php');
 
 		if ($this->app->runningInConsole()) {
 			$this->commands([
