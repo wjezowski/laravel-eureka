@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dirkuu\Eureka\Controllers;
+namespace Dirkuu\LaravelEureka\Http\Controllers;
 
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dirkuu\Eureka\Enums;
+namespace Dirkuu\LaravelEureka\Enums;
 
 class ServicesEnum
 {

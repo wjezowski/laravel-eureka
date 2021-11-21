@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dirkuu\Eureka\Factories;
+namespace Dirkuu\LaravelEureka\Factories;
 
 use Eureka\EurekaClient;
 
