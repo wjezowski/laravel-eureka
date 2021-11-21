@@ -24,8 +24,8 @@
         "phpunit/phpunit": "^9.5"
     },
     "autoload": {
-        "psr-0": {
-            "wjezowski\\LaravelEureka\\": ""
+        "psr-4": {
+            "Wjezowski\\LaravelEureka\\": "src/"
         }
     },
     "license": "MIT",
