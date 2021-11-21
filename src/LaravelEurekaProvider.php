@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace wjezowski\LaravelEureka;
+namespace Wjezowski\LaravelEureka;
 
 use Illuminate\Support\ServiceProvider;
-use wjezowski\LaravelEureka\Console\Commands\EurekaHeartbeatCommand;
+use Wjezowski\LaravelEureka\Console\Commands\EurekaHeartbeatCommand;
 
 class LaravelEurekaProvider extends ServiceProvider
 {

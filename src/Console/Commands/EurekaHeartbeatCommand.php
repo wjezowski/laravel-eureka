@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace wjezowski\LaravelEureka\Console\Commands;
+namespace Wjezowski\LaravelEureka\Console\Commands;
 
-use wjezowski\LaravelEureka\Console\Commands\Abstracts\AbstractCommand;
-use wjezowski\LaravelEureka\Factories\EurekaClientFactory;
+use Wjezowski\LaravelEureka\Console\Commands\Abstracts\AbstractCommand;
+use Wjezowski\LaravelEureka\Factories\EurekaClientFactory;
 use Eureka\EurekaClient;
 use Eureka\Exceptions\DeRegisterFailureException;
 
