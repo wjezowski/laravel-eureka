@@ -1,6 +1,14 @@
 {
     "name": "dirkuu/laravel-eureka",
     "description": "Eureka starter pack for Laravel",
+    "keywords": [
+        "dirkuu",
+        "laravel-eureka",
+        "laravel",
+        "php",
+        "eureka"
+    ],
+    "homepage": "https://github.com/dirkuu/laravel-eureka",
     "type": "library",
     "require": {
         "php": "^7.4|^8.0",
