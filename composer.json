@@ -13,7 +13,12 @@
     "require": {
         "php": "^7.4|^8.0",
         "ext-pcntl": "*",
-        "piwvh/php-eureka": "dev-master"
+        "ext-dom": "*",
+        "piwvh/php-eureka": "dev-master",
+        "illuminate/console": "^v8.73",
+        "illuminate/http": "^v8.73",
+        "illuminate/routing": "v8.73",
+        "illuminate/support": "^v8.73"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
