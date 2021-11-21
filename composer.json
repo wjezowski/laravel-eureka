@@ -1,0 +1,18 @@
+{
+    "name": "dirkuu/laravel-eureka",
+    "description": "Eureka starter pack for Laravel",
+    "type": "library",
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-pcntl": "*",
+        "piwvh/php-eureka": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wojciech Jeżowski",
+            "email": "dirkuu@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
