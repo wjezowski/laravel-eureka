@@ -21,7 +21,7 @@ class EurekaHeartbeatCommand extends AbstractCommand
 	{
 		parent::__construct();
 
-		$this->client = EurekaClientFactory::create();
+		$this->client = EurekaClientFactory::getEurekaClient();
 	}
 
 	public function __invoke(): void
