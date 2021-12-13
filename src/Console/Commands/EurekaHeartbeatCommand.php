@@ -26,14 +26,14 @@ class EurekaHeartbeatCommand extends AbstractCommand
 
 	public function __invoke(): void
 	{
-		try {
-			$this->client->start();
-		} catch (\Exception) {
-			echo 'Eureka is not available. Waiting ' . self::WAITING_TIME . ' second.' . PHP_EOL;
+		while (true) {
+			try {
+				$this->client->start();
+			} catch (\Exception) {
+				echo 'Eureka is not available. Waiting ' . self::WAITING_TIME . ' second.' . PHP_EOL;
 
-			sleep(self::WAITING_TIME);
-
-			$this->__invoke();
+				sleep(self::WAITING_TIME);
+			}
 		}
 	}
 
