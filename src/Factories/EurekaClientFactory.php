@@ -16,14 +16,14 @@ abstract class EurekaClientFactory
 	public static function getEurekaClient(): EurekaClient
 	{
 		if (!isset(self::$eurekaClient)) {
-			$homePageUrl = env('SERVICE_IP') . ':' . env('SERVICE_PORT');
+			$homePageUrl = getenv('SERVICE_IP') . ':' . getenv('SERVICE_PORT');
 
 			self::$eurekaClient = new EurekaClient([
-                'eurekaDefaultUrl' => env('EUREKA_SERVICE_URL'),
-                'hostName' => env('SERVICE_IP'),
-                'appName' => env('SERVICE_IP'),
-                'ip' => env('SERVICE_IP'),
-                'port' => [env('SERVICE_PORT'), true],
+                'eurekaDefaultUrl' => getenv('EUREKA_SERVICE_URL'),
+                'hostName' => getenv('SERVICE_IP'),
+                'appName' => getenv('SERVICE_IP'),
+                'ip' => getenv('SERVICE_IP'),
+                'port' => [getenv('SERVICE_PORT'), true],
                 'homePageUrl' => $homePageUrl,
                 'healthCheckUrl' => "$homePageUrl/api/health-check"
             ]);
